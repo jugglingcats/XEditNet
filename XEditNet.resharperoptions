@@ -1,0 +1,376 @@
+<Configuration>
+  <RecentFilesTracker>
+    <RecentFilesTracker>
+      <TrackedFile location="C:\projects\lucy\css\generic.css" offset="1395" line="60" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XenAuthorProfile\Profiles.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\projects\lucy\site.xsl" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetAuthor\XEditNetMainForm.cs" offset="0" line="122" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetAuthor\XEditNetChildForm.cs" offset="2617" line="301" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\CustomXmlResolver.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\XEditNetCtrl.cs" offset="36748" line="1338" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\validation\ValidationEngine.cs" offset="0" line="153" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\validation\Validation.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\validation\QuickFix.cs" offset="0" line="414" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\util\FileUtils.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\layout\textlayout.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XenAuthorProfile\wizard\InfoPage.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XenAuthorProfile\NewFileDialog.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XenAuthorProfile\GenDtdProfile\GenDtdWizardCtrl.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\command\CommandMapper.cs" offset="0" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\widgets\PanelBase.cs" offset="0" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\layout\tables.cs" offset="0" line="838" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\layout\LayoutEngine_misc.cs" offset="0" line="508" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\Selection.cs" offset="0" line="458" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\layout\interfaces.cs" offset="0" line="289" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\widgets\QuickFixPanel.cs" offset="2332" line="80" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetAuthor\samples\docbook\devguide.xml" offset="112" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetAuthor\samples\docbook\userguide\make.cmd" offset="14" line="-1" column="-1" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetAuthor\samples\samples.xml" offset="454" line="0" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\widgets\AttributeChangePanel.cs" offset="3810" line="64" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XEditNetCtrl\widgets\ElementListPanelBase.cs" offset="1938" line="48" column="0" />
+      <TrackedFile location="C:\VSPROJ\XEditNet\XenAuthorProfile\RegisteredTypeProfile\RegisteredTypeProfile.cs" offset="599" line="-1" column="-1" />
+    </RecentFilesTracker>
+  </RecentFilesTracker>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:XEditNet.Layout.LineItemQueue.QueueItem">
+      <Item value="item" priority="2" />
+      <Item value="BreakInfo" priority="0" />
+      <Item value="Metrics" priority="1" />
+      <Item value="Item" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Update" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.StartTag">
+      <Item value="GetHitTestInfo" priority="1" />
+      <Item value="GetHorizontalRect" priority="0" />
+      <Item value="GetBoundingRect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PaintEventArgs">
+      <Item value="Graphics" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.ElementListItem">
+      <Item value="IsRequired" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Screen.PrimaryScreen">
+      <Item value="Primary" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.ElementListItem[]">
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Undo.UndoManager.UndoBatch">
+      <Item value="Start" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="SelectNodes" priority="0" />
+      <Item value="Images" priority="0" />
+      <Item value="Editor" priority="0" />
+      <Item value="Attributes" priority="0" />
+      <Item value="LocalPath" priority="0" />
+      <Item value="GetEditorForm" priority="0" />
+      <Item value="AbsolutePath" priority="2" />
+      <Item value="Exists" priority="2" />
+      <Item value="Length" priority="1" />
+      <Item value="Info" priority="1" />
+      <Item value="Load" priority="0" />
+      <Item value="R" priority="2" />
+      <Item value="G" priority="0" />
+      <Item value="DocumentElement" priority="1" />
+      <Item value="FullName" priority="1" />
+      <Item value="GetAttribute" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Size" priority="0" />
+      <Item value="Contains" priority="2" />
+      <Item value="Height" priority="14" />
+      <Item value="Left" priority="0" />
+      <Item value="Right" priority="0" />
+      <Item value="X" priority="2" />
+      <Item value="Y" priority="1" />
+      <Item value="Width" priority="13" />
+      <Item value="Location" priority="3" />
+      <Item value="Bottom" priority="1" />
+      <Item value="Offset" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Widgets.QuickFixPanel">
+      <Item value="Editor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Location.Selection">
+      <Item value="IsEmpty" priority="0" />
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.LineItemQueue">
+      <Item value="items" priority="0" />
+      <Item value="CalcWidth" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.Tables.Table">
+      <Item value="Invalidate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeView">
+      <Item value="Nodes" priority="2" />
+      <Item value="SelectedNode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="Millisecond" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Dtd.ElementTypeRef">
+      <Item value="IsChoice" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="IsRequired" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="FromArgb" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="IsAlive" priority="0" />
+      <Item value="Start" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Dtd.DocumentType">
+      <Item value="GetElementType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DrawItemEventArgs">
+      <Item value="Index" priority="1" />
+      <Item value="State" priority="1" />
+      <Item value="Graphics" priority="1" />
+      <Item value="BackColor" priority="0" />
+      <Item value="Bounds" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@XEditNet.Util.FileUtils">
+      <Item value="FindFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="Offset" priority="3" />
+      <Item value="X" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.Tables.TableCell">
+      <Item value="elementNode" priority="0" />
+      <Item value="Parent" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNodeCollection">
+      <Item value="Clear" priority="1" />
+      <Item value="Add" priority="2" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Undo.UndoManager">
+      <Item value="Mark" priority="2" />
+      <Item value="Undo" priority="0" />
+      <Item value="Redo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.XEditNetCtrl">
+      <Item value="Selection" priority="0" />
+      <Item value="ValidationManager" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="AppendChild" priority="0" />
+      <Item value="ParentNode" priority="1" />
+      <Item value="Name" priority="1" />
+      <Item value="NodeType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Widgets.AttributeWidget">
+      <Item value="Name" priority="0" />
+      <Item value="AttributeName" priority="1" />
+      <Item value="Location" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.HitTestInfo">
+      <Item value="Type" priority="1" />
+      <Item value="SelectionPoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Widgets.PanelEx">
+      <Item value="Visible" priority="1" />
+      <Item value="Controls" priority="1" />
+      <Item value="ResumeLayout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.ItemMetrics">
+      <Item value="MinimumWidth" priority="0" />
+      <Item value="LineItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TreeNode">
+      <Item value="Tag" priority="7" />
+      <Item value="Nodes" priority="3" />
+      <Item value="Text" priority="0" />
+      <Item value="Expand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox.ObjectCollection">
+      <Item value="Clear" priority="0" />
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Widgets.ElementChangePanel">
+      <Item value="Editor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlElement">
+      <Item value="AppendChild" priority="8" />
+      <Item value="Equals" priority="0" />
+      <Item value="ChildNodes" priority="2" />
+      <Item value="CloneNode" priority="0" />
+      <Item value="NamespaceURI" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Dtd.ElementType">
+      <Item value="HasChildElement" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Dispose" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="CompareTo" priority="0" />
+      <Item value="Substring" priority="4" />
+      <Item value="Length" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.Tables.Table.ColumnInfo">
+      <Item value="MinimumWidth" priority="5" />
+      <Item value="proportionalWidth" priority="0" />
+      <Item value="DesiredWidth" priority="0" />
+      <Item value="CalculatedWidth" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="ToArray" priority="0" />
+      <Item value="Sort" priority="0" />
+      <Item value="Clear" priority="2" />
+      <Item value="Count" priority="8" />
+      <Item value="Add" priority="5" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetManifestResourceNames" priority="0" />
+      <Item value="CodeBase" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Profile.ProfileInfo">
+      <Item value="Stylesheet" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Styles.Style">
+      <Item value="Bind" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="LocalPath" priority="0" />
+      <Item value="AbsoluteUri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Exists" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.TextItemMetrics">
+      <Item value="AddSegment" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList">
+      <Item value="Draw" priority="0" />
+      <Item value="ImageSize" priority="1" />
+      <Item value="Images" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control.ControlCollection">
+      <Item value="Clear" priority="0" />
+      <Item value="SetChildIndex" priority="0" />
+      <Item value="Add" priority="1" />
+      <Item value="IndexOf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Location.SelectionPoint">
+      <Item value="Node" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.LayoutEngine">
+      <Item value="BoundingRect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="Equals" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.ILineItem">
+      <Item value="Width" priority="0" />
+      <Item value="CanSplit" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.ValidationManager">
+      <Item value="GetQuickFixes" priority="0" />
+      <Item value="GetErrorDetails" priority="0" />
+      <Item value="GetValidElements" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Widgets.AttributeChangePanel">
+      <Item value="Editor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="AppendChild" priority="1" />
+      <Item value="CreateElement" priority="4" />
+      <Item value="DocumentElement" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.Tables.ColumnInfo">
+      <Item value="CalculatedWidth" priority="0" />
+      <Item value="Specified" priority="0" />
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlProcessingInstruction">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ImageList.ImageCollection">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Cursor">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.ValidationError">
+      <Item value="Node" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.SizeF">
+      <Item value="Height" priority="0" />
+      <Item value="ToSize" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.Tables.Table.CellInfo">
+      <Item value="Column" priority="0" />
+      <Item value="Cell" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Layout.IBlock">
+      <Item value="ElementNode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="Dispose" priority="1" />
+      <Item value="Clear" priority="1" />
+      <Item value="Transform" priority="0" />
+      <Item value="DrawImage" priority="4" />
+      <Item value="TextContrast" priority="0" />
+      <Item value="CompositingQuality" priority="0" />
+      <Item value="DrawLine" priority="0" />
+      <Item value="FillRectangle" priority="3" />
+      <Item value="CompositingMode" priority="0" />
+      <Item value="InterpolationMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Size">
+      <Item value="Height" priority="3" />
+      <Item value="Width" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.ValidationError[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DropDownWidth" priority="0" />
+      <Item value="SelectedIndex" priority="2" />
+      <Item value="Size" priority="0" />
+      <Item value="Items" priority="2" />
+      <Item value="SelectedItem" priority="0" />
+      <Item value="Font" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:XEditNet.Validation.QuickFix">
+      <Item value="SubText" priority="0" />
+      <Item value="Perform" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ScrollableControl">
+      <Item value="AutoScrollPosition" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean />
+  </SettingsComponent>
+</Configuration>

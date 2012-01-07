@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEditNetCtrl", "XEditNetCtrl\XEditNetCtrl.csproj", "{738BEF9D-1484-43E1-9C24-C2DD9F330684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEditNetLicGen", "XEditNetLicGen\XEditNetLicGen.csproj", "{89BCCEB9-C626-4028-8418-CF1A1252A921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XEditNetAuthor", "XEditNetAuthor\XEditNetAuthor.csproj", "{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XenAuthorProfile", "XenAuthorProfile\XenAuthorProfile.csproj", "{3DA90097-DD10-4847-BA30-23DF915A4168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XenWebProfile", "XenWebProfile\XenWebProfile.csproj", "{6313A355-A2A4-4728-942D-9ED51EB99421}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupXEditNetAuthor", "SetupXEditNetAuthor\SetupXEditNetAuthor.vdproj", "{9725CD1F-FA92-49B7-98F7-1B2E8315C3DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Eval|Any CPU = Eval|Any CPU
+		NUnit|Any CPU = NUnit|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Eval|Any CPU.ActiveCfg = Eval|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Eval|Any CPU.Build.0 = Eval|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.NUnit|Any CPU.ActiveCfg = Eval|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.NUnit|Any CPU.Build.0 = Eval|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738BEF9D-1484-43E1-9C24-C2DD9F330684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Eval|Any CPU.ActiveCfg = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Eval|Any CPU.Build.0 = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.NUnit|Any CPU.ActiveCfg = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.NUnit|Any CPU.Build.0 = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BCCEB9-C626-4028-8418-CF1A1252A921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Eval|Any CPU.ActiveCfg = Eval|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Eval|Any CPU.Build.0 = Eval|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.NUnit|Any CPU.ActiveCfg = NUnit|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.NUnit|Any CPU.Build.0 = NUnit|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Eval|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Eval|Any CPU.Build.0 = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.NUnit|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.NUnit|Any CPU.Build.0 = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA90097-DD10-4847-BA30-23DF915A4168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Eval|Any CPU.ActiveCfg = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Eval|Any CPU.Build.0 = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.NUnit|Any CPU.ActiveCfg = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.NUnit|Any CPU.Build.0 = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6313A355-A2A4-4728-942D-9ED51EB99421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9725CD1F-FA92-49B7-98F7-1B2E8315C3DC}.Debug|Any CPU.ActiveCfg = Debug
+		{9725CD1F-FA92-49B7-98F7-1B2E8315C3DC}.Eval|Any CPU.ActiveCfg = Release
+		{9725CD1F-FA92-49B7-98F7-1B2E8315C3DC}.NUnit|Any CPU.ActiveCfg = Release
+		{9725CD1F-FA92-49B7-98F7-1B2E8315C3DC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

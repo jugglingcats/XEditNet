@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{738BEF9D-1484-43E1-9C24-C2DD9F330684}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>XEditNetCtrl</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>XEditNetCtrl</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\XEditNet.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Eval|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\lic_common\ILicenseItem.cs">
+      <Link>lic_common\ILicenseItem.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseBase.cs">
+      <Link>lic_common\LicenseBase.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseBaseByteDeserializer.cs">
+      <Link>lic_common\LicenseBaseByteDeserializer.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseBaseByteSerializer.cs">
+      <Link>lic_common\LicenseBaseByteSerializer.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseCharacterConvertor.cs">
+      <Link>lic_common\LicenseCharacterConvertor.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseChecksum.cs">
+      <Link>lic_common\LicenseChecksum.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseChecksumObfuscator.cs">
+      <Link>lic_common\LicenseChecksumObfuscator.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseDate.cs">
+      <Link>lic_common\LicenseDate.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseKeyConvertor.cs">
+      <Link>lic_common\LicenseKeyConvertor.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseRandomNumber.cs">
+      <Link>lic_common\LicenseRandomNumber.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\LicenseType.cs">
+      <Link>lic_common\LicenseType.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\Product.cs">
+      <Link>lic_common\Product.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\Release.cs">
+      <Link>lic_common\Release.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\lic_common\XEditNetLicenseValidator.cs">
+      <Link>lic_common\XEditNetLicenseValidator.cs</Link>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="command\CommandMapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomXmlResolver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Attribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\ContentModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\DocumentType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\DTDConst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\DTDParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\ElementType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Entity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Exception.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Group.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Notation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\ParameterEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\ParsedGeneralEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Particle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\Reference.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\TokenList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\UnparsedEntity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dtd\XmlName.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="find\FindPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graphics\Caret.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graphics\GdiPlusGraphics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graphics\NativeGraphics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graphics\Win32Util.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\BlockHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\enumerators.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\graphics.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\Image.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\interfaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\LayoutEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\LayoutEngine_misc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\tables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="layout\textlayout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lic_check\ActivationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lic_check\XEditNetLicence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lic_check\XEditNetLicenseContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lic_check\XEditNetLicenseProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NoDocumentControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PerfLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="style\Styles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UndoManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\Dtd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="util\FileUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\IdTracker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\InvalidNodeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\QuickFix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\Validation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\ValidationEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\ValidationError.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="validation\ValidationUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="widgets\AttributeChangePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\AttributeWidget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\AttributeWidgetEnum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\AttributeWidgetText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\ControlUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="widgets\ElementChangePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\ElementInsertPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\ElementListPanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="widgets\PanelBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="widgets\PopupWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="widgets\QuickFixIndicator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="widgets\QuickFixPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="widgets\QuickFixSorter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="widgets\WidgetTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XEditNetCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XEditNetExceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XmlUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xml\Catalog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xml\Serialization.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="command\images\editCopy.bmp" />
+    <EmbeddedResource Include="command\images\editCut.bmp" />
+    <EmbeddedResource Include="command\images\editPaste.bmp" />
+    <EmbeddedResource Include="command\images\editRedo.bmp" />
+    <EmbeddedResource Include="command\images\editUndo.bmp" />
+    <EmbeddedResource Include="error.bmp" />
+    <EmbeddedResource Include="find\FindPopup.resx">
+      <DependentUpon>FindPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="keys.xml" />
+    <EmbeddedResource Include="lic_check\ActivationForm.resx">
+      <DependentUpon>ActivationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoDocumentControl.resx">
+      <DependentUpon>NoDocumentControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="validationSample.xml" />
+    <EmbeddedResource Include="widgets\AttributeChangePanel.resx">
+      <DependentUpon>AttributeChangePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\AttributeWidget.resx">
+      <DependentUpon>AttributeWidget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\AttributeWidgetEnum.resx">
+      <DependentUpon>AttributeWidgetEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\AttributeWidgetText.resx">
+      <DependentUpon>AttributeWidgetText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\ElementChangePanel.resx">
+      <DependentUpon>ElementChangePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\ElementInsertPanel.resx">
+      <DependentUpon>ElementInsertPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\ElementListPanelBase.resx">
+      <DependentUpon>ElementListPanelBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\FlatButton.resx">
+      <DependentUpon>FlatButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\images\Bulb.png" />
+    <EmbeddedResource Include="widgets\images\BulbArrow.png" />
+    <EmbeddedResource Include="widgets\images\bulbLarge.png" />
+    <EmbeddedResource Include="widgets\images\elementChoice.png" />
+    <EmbeddedResource Include="widgets\images\elementNormal.png" />
+    <EmbeddedResource Include="widgets\images\elementRequired.png" />
+    <EmbeddedResource Include="widgets\images\removeAttribute.png" />
+    <EmbeddedResource Include="widgets\images\validationError.png" />
+    <EmbeddedResource Include="widgets\PopupWindow.resx">
+      <DependentUpon>PopupWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\QuickFixPanel.resx">
+      <DependentUpon>QuickFixPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="widgets\WidgetTextBox.resx">
+      <DependentUpon>WidgetTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XEditNetCtrl.resx">
+      <DependentUpon>XEditNetCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="index.htm" />
+    <Content Include="licence.rtf" />
+    <Content Include="todo.txt" />
+    <None Include="widgets\images\bulb.xcf" />
+    <None Include="widgets\images\elements.xcf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tests\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

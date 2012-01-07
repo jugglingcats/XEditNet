@@ -1,0 +1,26 @@
+<Stylesheet>
+
+	<Block XPath="title">
+		<Font Family="Arial" Bold="true"/>
+		<Margin Top="3" Bottom="3"/>
+	</Block>
+
+	<Block XPath="book/title">
+		<Font Size="16"/>
+	</Block>
+	
+	<Block XPath="preface/title|chapter/title">
+		<Font Size="14"/>
+	</Block>
+
+	<Block XPath="note/title">
+		<Font Size="10"/>
+	</Block>
+
+	<Inline XPath="citation">
+		<Font Italic="true"/>
+	</Inline>
+
+	<Inline XPath="menuchoice|guimenu|guimenuitem|accel|keycap|keycombo"/>
+
+</Stylesheet>

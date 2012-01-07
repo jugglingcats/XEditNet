@@ -1,0 +1,60 @@
+<HTML>
+<HEAD>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   </HEAD>
+<BODY>
+<OBJECT type="text/site properties">
+<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="XEditNetAuthor User's Guide">
+<param name="Local" value="index.html"></OBJECT></LI>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Introduction">
+<param name="Local" value="pr01.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Audience">
+<param name="Local" value="pr01s01.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="How this guide was produced">
+<param name="Local" value="pr01s02.html"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="How to...">
+<param name="Local" value="ch01.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Open an existing file">
+<param name="Local" value="ch01s01.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Save the current file">
+<param name="Local" value="ch01s02.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Move around the document">
+<param name="Local" value="ch01s03.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Select, cut copy and paste text">
+<param name="Local" value="ch01s04.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Insert a new element">
+<param name="Local" value="ch01s05.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Work with attributes">
+<param name="Local" value="ch01s06.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Change an element name">
+<param name="Local" value="ch01s07.html"></OBJECT></LI>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Hide and show tags">
+<param name="Local" value="ch01s08.html"></OBJECT></LI>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Reference">
+<param name="Local" value="ch02.html"></OBJECT></LI>
+<UL>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Keyboard shortcuts">
+<param name="Local" value="ch02s01.html"></OBJECT></LI>
+</UL></UL>
+</UL>
+</BODY></HTML>

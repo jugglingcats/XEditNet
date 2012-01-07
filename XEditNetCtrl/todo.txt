@@ -1,0 +1,30 @@
+Tables:
+- Fix bugs
+	- Delete of some node blows up
+- Implement colspan if not rowspan
+- Implement custom table classes, eg. XHTMLTableHandler, specified in stylesheet
+- Provide UI in menu/toolbar
+	- Insert table
+	- Edit table/col/colgroup properties
+	- 
+- Do valid/invalid switch
+
+Quick Fix:
+- Add fixes for invalid / missing attributes
+- Implement auto-fix (manual and on insert)
+
+Entity Resolution:
+- More configurable entity handler
+- UI to specify file locations
+- Persist mappings
+
+Paste:
+- Test entity handling properly
+- Think about HTML->XML->XSL pipeline
+
+Widget windows:
+- Background threading still an issue
+- Don't do background processing if windows not visible
+- Main issue is in Invoke which is foreground
+
+

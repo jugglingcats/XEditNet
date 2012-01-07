@@ -1,0 +1,57 @@
+<KeyMapper>
+	
+	<!-- menu style commands -->
+	<CommandMapping KeySequence="Control+F" Method="EditFind"/>
+	<CommandMapping KeySequence="Control+Z" Method="EditUndo" MenuPath="/&amp;Edit/Undo" ButtonGroup="Default" ImagePath="command.images.editUndo.bmp"/>
+	<CommandMapping KeySequence="Control+Y" Method="EditRedo" MenuPath="/&amp;Edit/Redo" ButtonGroup="Default" ImagePath="command.images.editRedo.bmp"/>
+	<CommandMapping KeySequence="Control+X" Method="EditCut" MenuPath="/&amp;Edit/Cut" MenuBreak="true" ButtonGroup="Default" ImagePath="command.images.editCut.bmp"/>
+	<CommandMapping KeySequence="Control+C" Method="EditCopy" MenuPath="/&amp;Edit/Copy" ImagePath="command.images.editCopy.bmp"/>
+	<CommandMapping KeySequence="Control+V" Method="EditPaste" MenuPath="/&amp;Edit/Paste" ImagePath="command.images.editPaste.bmp"/>
+	<CommandMapping KeySequence="Delete" Method="EditDelete" MenuPath="/&amp;Edit/Delete"/>
+	<CommandMapping KeySequence="Control+A" Method="EditSelectAll" MenuPath="/&amp;Edit/SelectAll" MenuBreak="true"/>
+	<CommandMapping KeySequence="Control+E" Method="EditExtendSelection" MenuPath="/&amp;Edit/Extend Selection"/>
+	<CommandMapping KeySequence="Control+J" Method="EditChangeElement" MenuPath="/&amp;Edit/Change Element"/>
+	<CommandMapping KeySequence="Control+I" Method="EditInsertElement" MenuPath="/&amp;Edit/Insert Element"/>
+	<CommandMapping KeySequence="Control+L" Method="EditModifyAttribute" MenuPath="/&amp;Edit/Modify Attributes"/>
+	<CommandMapping KeySequence="Control+R" Method="FileReloadStylesheet" MenuPath="/&amp;File/Reload Stylesheet" MenuBreak="true" MenuIndex="2"/>
+	<CommandMapping KeySequence="Control+K,Control+O" Method="ViewTagsOff" MenuPath="/&amp;View/Tags Off"/>
+	<CommandMapping KeySequence="Control+K,Control+N" Method="ViewTagsOn" MenuPath="/&amp;View/Tags On"/>
+	<CommandMapping KeySequence="Return" Method="EditNewline"/>
+	<CommandMapping KeySequence="Control+Return" Method="EditSplitElement"/>
+	
+	<!-- basic commands -->
+	<CommandMapping KeySequence="Back" Method="EditBackspace"/>
+
+	<CommandMapping KeySequence="Right" Method="CursorCharRight"/>
+	<CommandMapping KeySequence="Shift+Right" Method="CursorExtendCharRight"/>
+	<CommandMapping KeySequence="Control+Right" Method="CursorWordRight"/>
+	<CommandMapping KeySequence="Control+Shift+Right" Method="CursorExtendWordRight"/>
+
+	<CommandMapping KeySequence="Left" Method="CursorCharLeft"/>
+	<CommandMapping KeySequence="Shift+Left" Method="CursorExtendCharLeft"/>
+	<CommandMapping KeySequence="Control+Left" Method="CursorWordLeft"/>
+	<CommandMapping KeySequence="Control+Shift+Left" Method="CursorExtendWordLeft"/>
+
+	<CommandMapping KeySequence="Down" Method="CursorLineDown"/>
+	<CommandMapping KeySequence="Shift+Down" Method="CursorExtendLineDown"/>
+
+	<CommandMapping KeySequence="Up" Method="CursorLineUp"/>
+	<CommandMapping KeySequence="Shift+Up" Method="CursorExtendLineUp"/>
+	
+	<CommandMapping KeySequence="End" Method="CursorLineEnd"/>
+	<CommandMapping KeySequence="Shift+End" Method="CursorExtendLineEnd"/>
+	<CommandMapping KeySequence="Control+End" Method="CursorDocumentEnd"/>
+	<CommandMapping KeySequence="Control+Shift+End" Method="CursorExtendDocumentEnd"/>
+
+	<CommandMapping KeySequence="Home" Method="CursorLineBegin"/>
+	<CommandMapping KeySequence="Shift+Home" Method="CursorExtendLineBegin"/>
+	<CommandMapping KeySequence="Control+Home" Method="CursorDocumentBegin"/>
+	<CommandMapping KeySequence="Control+Shift+Home" Method="CursorExtendDocumentBegin"/>
+
+	<CommandMapping KeySequence="Next" Method="CursorPageDown"/>
+	<CommandMapping KeySequence="Shift+Next" Method="CursorExtendPageDown"/>
+
+	<CommandMapping KeySequence="PageUp" Method="CursorPageUp"/>
+	<CommandMapping KeySequence="Shift+PageUp" Method="CursorExtendPageUp"/>
+
+</KeyMapper>

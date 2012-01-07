@@ -1,0 +1,36 @@
+<!ENTITY % xhtml SYSTEM "xhtml/xhtml1-strict.dtd">
+%xhtml;
+
+<!ELEMENT website (page+, div*)>
+<!ELEMENT page (pagetitle, navtitle, pagebody)>
+<!ATTLIST page
+	id ID #REQUIRED
+>
+<!ELEMENT pagetitle (#PCDATA)>
+<!ELEMENT navtitle (#PCDATA)>
+<!ELEMENT pagebody ((%block;)*, (section+ | person+ | news+)?)>
+
+<!ELEMENT section (secttitle, (%block;)+)>
+<!ATTLIST section
+	id ID #REQUIRED
+>
+<!ELEMENT secttitle (#PCDATA)>
+
+<!ELEMENT person (photo, biography)>
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo
+	width CDATA #REQUIRED
+	height CDATA #REQUIRED
+	alt CDATA #REQUIRED
+	src CDATA #REQUIRED
+>
+<!ELEMENT biography %Inline;>
+
+<!ELEMENT news (newstitle, newsdate, newssummary, newsbody)>
+<!ATTLIST news
+	id ID #REQUIRED
+>
+<!ELEMENT newstitle (#PCDATA)>
+<!ELEMENT newsdate (#PCDATA)>
+<!ELEMENT newssummary (#PCDATA)>
+<!ELEMENT newsbody %Block;>

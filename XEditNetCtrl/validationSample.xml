@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE doc [
+
+<!ENTITY test "<anchor id='id1'/>">
+<!ENTITY unk "<unk/>">
+
+<!ELEMENT doc (sect|img|para|anchor|xref|defaulted)*>
+<!ATTLIST doc
+	xmlns:t CDATA #FIXED "dummyns"
+>
+
+<!ELEMENT sect (title, (para|xref|anchor)+, sect*)>
+
+<!ELEMENT anchor EMPTY>
+<!ATTLIST anchor
+	id ID #IMPLIED
+>
+
+<!ELEMENT defaulted EMPTY>
+<!ATTLIST defaulted
+	att (a|b|c) "c"
+>
+
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT para (#PCDATA|anchor)*>
+
+<!ELEMENT xref EMPTY>
+<!ATTLIST xref
+	idref IDREF #IMPLIED
+>
+
+<!ELEMENT other EMPTY>
+
+<!ELEMENT img EMPTY>
+<!ATTLIST img
+	src CDATA #REQUIRED
+>
+
+]>
+<doc>
+</doc>

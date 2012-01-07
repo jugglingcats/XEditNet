@@ -1,0 +1,83 @@
+<Stylesheet>
+	<DefaultFont Family="Times New Roman" Size="12"/>
+	<TagFont Family="Verdana" Size="8"/>
+	<DefaultPadding Left="8"/>
+
+	<NamespaceMapping Prefix="x" NamespaceURI="http://www.w3.org/1999/xhtml"/>
+	
+	<Block XPath="x:pre" Pre="true">
+		<Font Family="Courier New" Size="10"/>
+	</Block>
+	
+	<Block XPath="x:body">
+	</Block>	
+
+	<Block XPath="x:p">
+		<Margin Top="6" Bottom="3"/>
+	</Block>
+
+	<Block XPath="x:h1">
+		<Font Family="Arial" Bold="true" Size="16"/>
+		<Margin Top="12"/>
+	</Block>
+	
+	<Block XPath="x:h2">
+		<Font Family="Arial" Bold="true" Size="14"/>
+		<Margin Top="8"/>
+	</Block>
+	
+	<Block XPath="x:dt">
+		<Font Family="Arial" Bold="true"/>
+	</Block>
+	
+	<Block XPath="x:dt">
+		<Conditions>
+			<Position Value="1" Qualifier="false"/>
+		</Conditions>
+		<Margin Top="10"/>
+	</Block>
+	<Block XPath="x:dd">
+		<Margin Left="15"/>
+	</Block>
+
+	<Inline XPath="x:meta" Empty="true"/>
+
+	<Inline XPath="x:a">
+		<Font Underline="true"/>
+	</Inline>
+	
+	<Inline XPath="x:a[@name]" Empty="true">
+		<!-- <Conditions><HasAttribute Name="name"/></Conditions> -->
+	</Inline>
+	
+	<Inline XPath="x:b">
+		<Font Bold="true"/>
+	</Inline>
+	
+	<Inline XPath="x:strong">
+		<Font Bold="true"/>
+	</Inline>
+
+	<Inline XPath="x:em">
+		<Font Italic="true"/>
+	</Inline>
+
+	<Inline XPath="x:abbr"/>
+
+	<Inline XPath="x:code">
+		<Font Family="Courier New" Size="11"/>
+	</Inline>
+
+	<Image XPath="x:img[count(child::node())=0]" SourceAttribute="src"/>
+
+	<Table XPath="x:dd"/>
+	<Row XPath="x:dt"/>
+	<Cell XPath="x:dd"/>
+
+
+<!--	
+	<Custom XPath="x:img[count(child::node())=0]" Class="Image">
+		<Property Name="SourceAttribute" Value="src"/>
+	</Custom>
+-->
+</Stylesheet>

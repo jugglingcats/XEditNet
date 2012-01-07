@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DA90097-DD10-4847-BA30-23DF915A4168}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>XenAuthorProfile</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>XenAuthorProfile</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\XEditNetCtrl\XEditNetCtrl.csproj">
+      <Name>XEditNetCtrl</Name>
+      <Project>{738BEF9D-1484-43E1-9C24-C2DD9F330684}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BlankDocumentProfile\BlankDocumentProfile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GenDtdProfile\GenDtdProfile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GenDtdProfile\GenDtdWizardCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewFileCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profiles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegisteredTypeProfile\RegisteredTypeDefaultWizard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegisteredTypeProfile\RegisteredTypeProfile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RegisteredTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wizard\HeaderDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\InfoContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wizard\InfoContainerDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\InfoPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wizard\InfoPageDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\PageCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\PageEventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\Wizard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="wizard\WizardDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="wizard\WizardPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="wizard\WizardPageDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="GenDtdProfile\GenDtdWizardCtrl.resx">
+      <DependentUpon>GenDtdWizardCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFileCtrl.resx">
+      <DependentUpon>NewFileCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFileDialog.resx">
+      <DependentUpon>NewFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profiles.resx">
+      <DependentUpon>Profiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisteredTypeProfile\RegisteredTypeDefaultWizard.resx">
+      <DependentUpon>RegisteredTypeDefaultWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard\InfoContainer.resx">
+      <DependentUpon>InfoContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard\InfoPage.resx">
+      <DependentUpon>InfoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard\Wizard.resx">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wizard\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="wizard\Wizard.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

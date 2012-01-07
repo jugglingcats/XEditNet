@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<SampleList>
+	<Sample Name="DocBook" Description="Popular DTD for complex technical documentation" File="docbook/userguide.xml"/>
+	<Sample Name="XHTML" Description="WYSIWYG editing of XML pages using the XHTML DTD" File="xhtml/overview.xml"/>
+	<Sample Name="Website" Description="Edit and preview using built in XSL transformation" File="website/site.xml"/>
+	<Sample Name="Tables" Description="Demonstrates table handling in XEditNet" File="tables/tables.xml"/>
+	<Sample Name="Errors" Description="Demonstrates interactive error correction in XEditNet" File="errors/errors.xml"/>
+</SampleList>

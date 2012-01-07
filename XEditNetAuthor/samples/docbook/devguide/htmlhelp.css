@@ -1,0 +1,79 @@
+body {
+	margin: 0 0 0 0;
+	font-family: verdana, sans-serif;
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+blockquote {
+	margin: 15 0 0 15;
+	padding: 0 0 0 0;
+}
+
+blockquote blockquote {
+	margin: 0 0 0 20;
+	padding: 0 0 0 0;
+}
+
+blockquote p, dd p {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+dt {
+	margin: 15 0 0 15;
+}
+
+table {
+	font-size: 1em;
+}
+
+tt.filename, h4, h5, h6 {
+	font-size: 1em;
+}
+
+div.titlepage hr {
+	display: none;
+}
+
+div.toc, p, table, h4, h5, h6 {
+	margin: 10 15 0 15;
+}
+
+code.methodsynopsis, code.fieldsynopsis {
+	display: block;
+	padding: 5 10 5 10;
+	background: #f0f0ff;
+}
+
+pre.classsynopsis {
+	font-size: 1em;
+	margin: 10 0 0 15;
+	padding: 5 10 5 10;
+	background: #f0f0ff;
+}
+
+div.note {
+	margin: 0 30 0 30;
+	background: #f0f0ff;
+}
+
+div.note, dl, h3.title, code {
+	font-size: 1em;
+	margin: 10 0 0 15;
+}
+
+div.toc p {
+	margin: 10 0 10 0;
+}
+
+a {
+	color: blue;
+}
+
+h1.title, h2.title, h3.title, h4.title, h5.title {
+	font-size: 1.2em;
+	padding: 5 15 5 15;
+	margin: 0 0 0 0;
+	background: #c0c0ff;
+}

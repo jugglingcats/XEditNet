@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FACD8BD-67CD-4A4C-B0DD-F54DE11A269D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>XEditNetAuthor</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>XEditNetAuthor</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Eval|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'NUnit|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\XEditNetCtrl\XEditNetCtrl.csproj">
+      <Name>XEditNetCtrl</Name>
+      <Project>{738BEF9D-1484-43E1-9C24-C2DD9F330684}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\XenAuthorProfile\XenAuthorProfile.csproj">
+      <Name>XenAuthorProfile</Name>
+      <Project>{3DA90097-DD10-4847-BA30-23DF915A4168}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\XenWebProfile\XenWebProfile.csproj">
+      <Name>XenWebProfile</Name>
+      <Project>{6313A355-A2A4-4728-942D-9ED51EB99421}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>C:\Users\alfie\Desktop\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ControlUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc\PersistWindowState.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="welcome\SampleList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="welcome\WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome\WelcomePageCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="welcome\WelcomeTabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="welcome\WelcomeTabDesigner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="welcome\WelcomeTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XEditNetChildForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XEditNetChildForm2.Designer.cs">
+      <DependentUpon>XEditNetChildForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XEditNetDefaultEditorRegion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="XEditNetMainForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XEditNetMainForm2.Designer.cs">
+      <DependentUpon>XEditNetMainForm2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="app.ico" />
+    <EmbeddedResource Include="images\btnBack.bmp" />
+    <EmbeddedResource Include="images\btnNext.bmp" />
+    <EmbeddedResource Include="images\globe.png" />
+    <EmbeddedResource Include="MdiChild.ico" />
+    <EmbeddedResource Include="misc\PersistWindowState.resx">
+      <DependentUpon>PersistWindowState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="welcome\WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome\WelcomeTabControl.resx">
+      <DependentUpon>WelcomeTabControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome\WelcomeTabPage.resx">
+      <DependentUpon>WelcomeTabPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XEditNetChildForm2.resx">
+      <DependentUpon>XEditNetChildForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XEditNetDefaultEditorRegion.resx">
+      <DependentUpon>XEditNetDefaultEditorRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XEditNetMainForm2.resx">
+      <DependentUpon>XEditNetMainForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="misc\readme.txt" />
+    <None Include="misc\SandBar.dll" />
+    <None Include="misc\SandDock.dll" />
+    <None Include="samples\docbook\devguide\make.cmd" />
+    <None Include="samples\docbook\makeref.cmd" />
+    <None Include="samples\docbook\userguide\make.cmd" />
+    <None Include="samples\website\author.html" />
+    <None Include="samples\website\download.html" />
+    <None Include="samples\website\editing.html" />
+    <None Include="samples\website\faq.html" />
+    <None Include="samples\website\features.html" />
+    <None Include="samples\website\index.html" />
+    <None Include="samples\website\news.html" />
+    <None Include="samples\website\pricing.html" />
+    <None Include="samples\website\styles.html" />
+    <None Include="samples\website\tables.html" />
+    <None Include="samples\website\validation.html" />
+    <None Include="samples\website\_default.html" />
+    <Content Include="samples\docbook\cd2doc.xsl" />
+    <Content Include="samples\docbook\codedoc.xmlfrag" />
+    <Content Include="samples\docbook\devguide.xml" />
+    <Content Include="samples\docbook\devguide\driver.xsl" />
+    <Content Include="samples\docbook\devguide\htmlhelp.css" />
+    <Content Include="samples\docbook\docbook.style" />
+    <Content Include="samples\docbook\dtd\calstblx.dtd" />
+    <Content Include="samples\docbook\dtd\catalog.xml" />
+    <Content Include="samples\docbook\dtd\ChangeLog" />
+    <Content Include="samples\docbook\dtd\dbcentx.mod" />
+    <Content Include="samples\docbook\dtd\dbgenent.mod" />
+    <Content Include="samples\docbook\dtd\dbhierx.mod" />
+    <Content Include="samples\docbook\dtd\dbnotnx.mod" />
+    <Content Include="samples\docbook\dtd\dbpoolx.mod" />
+    <Content Include="samples\docbook\dtd\docbook.cat" />
+    <Content Include="samples\docbook\dtd\docbookx.dtd" />
+    <Content Include="samples\docbook\dtd\ent\iso-amsa.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-amsb.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-amsc.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-amsn.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-amso.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-amsr.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-box.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-cyr1.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-cyr2.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-dia.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-grk1.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-grk2.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-grk3.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-grk4.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-lat1.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-lat2.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-num.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-pub.ent" />
+    <Content Include="samples\docbook\dtd\ent\iso-tech.ent" />
+    <Content Include="samples\docbook\dtd\htmltblx.mod" />
+    <Content Include="samples\docbook\dtd\README" />
+    <Content Include="samples\docbook\dtd\soextblx.dtd" />
+    <Content Include="samples\docbook\key_info.xmlfrag" />
+    <Content Include="samples\docbook\userguide.xml" />
+    <Content Include="samples\docbook\userguide\driver.xsl" />
+    <Content Include="samples\docbook\userguide\htmlhelp.css" />
+    <Content Include="samples\docbook\userguide\keys.xsl" />
+    <Content Include="samples\samples.xml" />
+    <Content Include="samples\tables\tables.style" />
+    <Content Include="samples\tables\tables.xml" />
+    <Content Include="samples\website\css\generic.css" />
+    <Content Include="samples\website\images\badid.png" />
+    <Content Include="samples\website\images\badtext.png" />
+    <Content Include="samples\website\images\baseBg.gif" />
+    <Content Include="samples\website\images\base_centre.gif" />
+    <Content Include="samples\website\images\base_left.gif" />
+    <Content Include="samples\website\images\base_right.gif" />
+    <Content Include="samples\website\images\button_bg.png" />
+    <Content Include="samples\website\images\centreCol.gif" />
+    <Content Include="samples\website\images\choice.png" />
+    <Content Include="samples\website\images\details.gif" />
+    <Content Include="samples\website\images\hordash.gif" />
+    <Content Include="samples\website\images\icon_truecol.png" />
+    <Content Include="samples\website\images\insert_element.png" />
+    <Content Include="samples\website\images\insert_element_small.png" />
+    <Content Include="samples\website\images\invalid.png" />
+    <Content Include="samples\website\images\left_col.gif" />
+    <Content Include="samples\website\images\logo_truecol.png" />
+    <Content Include="samples\website\images\mainview.gif" />
+    <Content Include="samples\website\images\modify_attribute.png" />
+    <Content Include="samples\website\images\modify_attribute_small.png" />
+    <Content Include="samples\website\images\rightCol.gif" />
+    <Content Include="samples\website\images\spacer.gif" />
+    <Content Include="samples\website\images\topBg.gif" />
+    <Content Include="samples\website\images\top_centre.gif" />
+    <Content Include="samples\website\images\top_left.gif" />
+    <Content Include="samples\website\images\top_right.gif" />
+    <Content Include="samples\website\images\verdash.gif" />
+    <Content Include="samples\website\site.dtd" />
+    <Content Include="samples\website\site.style" />
+    <Content Include="samples\website\site.xml" />
+    <Content Include="samples\website\site.xsl" />
+    <Content Include="samples\website\xhtml\xhtml-lat1.ent" />
+    <Content Include="samples\website\xhtml\xhtml-special.ent" />
+    <Content Include="samples\website\xhtml\xhtml-symbol.ent" />
+    <Content Include="samples\website\xhtml\xhtml1-strict.dtd" />
+    <Content Include="samples\xhtml\overview.xml" />
+    <Content Include="samples\xhtml\w3c_home.png" />
+    <Content Include="samples\xhtml\xhtml-lat1.ent" />
+    <Content Include="samples\xhtml\xhtml-special.ent" />
+    <Content Include="samples\xhtml\xhtml-symbol.ent" />
+    <Content Include="samples\xhtml\xhtml.style" />
+    <Content Include="samples\xhtml\xhtml1-strict.dtd" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="samples\docbook\userguide\widgets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

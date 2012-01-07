@@ -1,0 +1,25 @@
+<Stylesheet>
+	<DefaultPadding Left="0"/>
+	
+	<Block XPath="title">
+		<Font Family="Arial" Bold="true" Size="16"/>
+		<Margin Top="12"/>
+	</Block>
+
+	<Block XPath="p">
+		<Margin Top="6" Bottom="3"/>
+	</Block>
+
+	<Inline XPath="b">
+		<Font Bold="true"/>
+	</Inline>
+
+	<Table XPath="table"/>
+	<Row XPath="tr"/>
+	<Cell XPath="td"/>
+	
+	<Table XPath="glossary"/>
+	<Row XPath="glossitem"/>
+	<Cell XPath="term"/>
+	<Cell XPath="definition"/>
+</Stylesheet>

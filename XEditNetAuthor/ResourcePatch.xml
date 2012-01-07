@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<PatchFiles>
+	<File Name="XEditNetMainForm.resx">
+		<Image Src="images/FileNew.bmp">
+			<Node Id="menuFileNew.Image"/>
+			<Node Id="buttonFileNew.Image"/>
+		</Image>
+
+		<Image Src="images/FileOpen.bmp">
+			<Node Id="menuFileOpen.Image"/>
+			<Node Id="buttonFileOpen.Image"/>
+		</Image>
+		
+		<Image Src="images/FileSave.bmp">
+			<Node Id="menuFileSave.Image"/>
+			<Node Id="buttonFileSave.Image"/>
+		</Image>
+	</File>
+</PatchFiles>
