@@ -321,5 +321,71 @@ namespace XEditNetAuthor
             }
         }
 
+        private void OnSave(object sender, EventArgs e)
+        {
+			if ( CurrentChild == null )
+				return;
+
+			if ( CurrentFileInfo == null )
+                FileSaveAs();
+			else
+				SaveFile(CurrentChild.Editor, CurrentFileInfo);
+        }
+
+        private void FileSaveAs()
+        {
+            //FileInfo fi = GetSaveAsFileInfo();
+            //if (fi != null)
+            //{
+            //    SaveFile(CurrentEditor, fi);
+            //    mru.Add(fi.FullName);
+            //    CurrentFileInfo = fi;
+            //}
+        }
+
+        private void SaveFile(XEditNetCtrl editor, FileInfo fi)
+        {
+            // TODO: M: show wait cursor
+            XmlTextWriter xtw = new XmlTextWriter(fi.FullName, Encoding.UTF8);
+            try
+            {
+                editor.Document.Save(xtw);
+                editor.IsModified = false;
+            }
+            finally
+            {
+                xtw.Close();
+            }
+        }
+
+
+        private IXEditNetEditorRegion CurrentChild
+        {
+            get
+            {
+                return (IXEditNetEditorRegion)this.ActiveMdiChild;
+            }
+        }
+
+        private FileInfo CurrentFileInfo
+        {
+            get
+            {
+                if (CurrentChild == null)
+                    return null;
+
+                return (FileInfo)((Form)CurrentChild).Tag;
+            }
+            set
+            {
+                if (CurrentChild == null)
+                    throw new ArgumentException("No page to set info for");
+
+                ((Form)CurrentChild).Tag = value;
+                ((Form)CurrentChild).Text = value.Name;
+            }
+        }
+
+
     }
 }

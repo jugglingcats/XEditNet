@@ -8,10 +8,11 @@ using System.Text;
 using System.Windows.Forms;
 using WeifenLuo.WinFormsUI.Docking;
 using XEditNet.Profile;
+using XEditNet;
 
 namespace XEditNetAuthor
 {
-    public partial class XEditNetChildForm2 : DockContent
+    public partial class XEditNetChildForm2 : DockContent, IXEditNetEditorRegion
     {
         private UserControl editorRegion;
 
@@ -23,6 +24,14 @@ namespace XEditNetAuthor
         public IXEditNetEditorRegion EditorRegion
         {
             get { return editorRegion as IXEditNetEditorRegion; }
+        }
+
+        public XEditNetCtrl Editor
+        {
+            get
+            {
+                return EditorRegion.Editor;
+            }
         }
 
         public XEditNetChildForm2(UserControl editorRegion)
