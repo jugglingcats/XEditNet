@@ -12,6 +12,7 @@ using WeifenLuo.WinFormsUI.Docking;
 using XEditNet.Widgets;
 using XEditNet;
 using System.IO;
+using System.Collections;
 
 namespace XEditNetAuthor
 {
@@ -20,12 +21,16 @@ namespace XEditNetAuthor
     {
         private int childFormNumber = 0;
 
-        private DockContent elementChangePanel = new DockContent();
-        private DockContent elementInsertPanel = new DockContent();
-
         private IXEditNetEditorRegion currentRegion=null;
         private static readonly string DEFAULT_FILE_FILTER=
 			"XML Files (*.xml)|*.xml|XHTML Files (*.xhtml; *.htm; *.html)|*.xhtml;*.htm;*.html|All Files (*.*)|*.*";
+
+        private Dictionary<Type, WidgetPanel> panels = new Dictionary<Type, WidgetPanel>();
+
+        //private DockContent elementChangePanel = new DockContent();
+        //private DockContent elementInsertPanel = new DockContent();
+        //private DockContent quickFixPanel = new DockContent();
+
 
         /// <summary>
         /// The main entry point for the application.
@@ -40,29 +45,67 @@ namespace XEditNetAuthor
         {
             InitializeComponent();
 
-            elementChangePanel.Controls.Add(new ElementChangePanel());
-            elementChangePanel.Controls[0].Dock = DockStyle.Fill;
-            elementChangePanel.ShowHint = DockState.DockRight;
-            elementChangePanel.ShowIcon = false;
-            elementChangePanel.Name = "elementChangePanel";
-            elementChangePanel.Text = "Change";
-            elementChangePanel.DockAreas = DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float;
-            elementChangePanel.Show(dockPanel1);
+            AddPanel(new ElementChangePanel(), DockState.DockRight, "Change", DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float);
+            AddPanel(new ElementInsertPanel(), DockState.DockRight, "Insert", DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float);
+            AddPanel(new AttributeChangePanel(), DockState.DockRight, "Attributes", DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float);
+            AddPanel(new QuickFixPanel(), DockState.DockLeftAutoHide, "Quick Fix", DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float);
 
-            elementInsertPanel.Controls.Add(new ElementInsertPanel());
-            elementInsertPanel.Controls[0].Dock = DockStyle.Fill;
-            elementInsertPanel.ShowHint = DockState.DockRight;
-            elementInsertPanel.ShowIcon = false;
-            elementInsertPanel.Name = "elementInsertPanel";
-            elementInsertPanel.Text = "Insert";
-            elementInsertPanel.DockAreas = DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float;
-            elementInsertPanel.Show(dockPanel1);
+            //elementChangePanel.Controls.Add(new ElementChangePanel());
+            //elementChangePanel.Controls[0].Dock = DockStyle.Fill;
+            //elementChangePanel.ShowHint = DockState.DockRight;
+            //elementChangePanel.ShowIcon = false;
+            //elementChangePanel.Name = "elementChangePanel";
+            //elementChangePanel.Text = "Change";
+            //elementChangePanel.DockAreas = DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float;
+            //elementChangePanel.Show(dockPanel1);
+
+            //elementInsertPanel.Controls.Add(new ElementInsertPanel());
+            //elementInsertPanel.Controls[0].Dock = DockStyle.Fill;
+            //elementInsertPanel.ShowHint = DockState.DockRight;
+            //elementInsertPanel.ShowIcon = false;
+            //elementInsertPanel.Name = "elementInsertPanel";
+            //elementInsertPanel.Text = "Insert";
+            //elementInsertPanel.DockAreas = DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float;
+            //elementInsertPanel.Show(dockPanel1);
+
+            //quickFixPanel.Controls.Add(new QuickFixPanel());
+            //quickFixPanel.Controls[0].Dock = DockStyle.Fill;
+            //quickFixPanel.ShowHint = DockState.DockLeft;
+            //quickFixPanel.ShowIcon = false;
+            //quickFixPanel.Name = "elementInsertPanel";
+            //quickFixPanel.Text = "Insert";
+            //quickFixPanel.DockAreas = DockAreas.DockRight | DockAreas.DockLeft | DockAreas.Float;
+            //quickFixPanel.Show(dockPanel1);
+        
         }
 
-        private ElementInsertPanel ElementInsert
+        private void AddPanel(PanelBase nestedPanel, DockState dockState, string title, DockAreas dockAreas)
         {
-            get { return elementInsertPanel.Controls[0] as ElementInsertPanel; }
+            WidgetPanel panel = new WidgetPanel(nestedPanel);
+            panel.ShowHint = dockState;
+            panel.ShowIcon = false;
+            panel.Name = nestedPanel.GetType().FullName;
+            panel.Text = title;
+            panel.DockAreas = dockAreas;
+            panel.Show(dockPanel1);
+
+            panels.Add(nestedPanel.GetType(), panel);
         }
+
+        //private ElementInsertPanel ElementInsert
+        //{
+        //    get { return elementInsertPanel.Controls[0] as ElementInsertPanel; }
+        //}
+
+        //private ElementChangePanel ElementChange
+        //{
+        //    get { return elementChangePanel.Controls[0] as ElementChangePanel; }
+        //}
+
+        //private QuickFixPanel QuickFix
+        //{
+        //    get { return quickFixPanel.Controls[0] as QuickFixPanel; }
+        //}
 
         private void ShowNewForm(object sender, EventArgs e)
         {
@@ -105,26 +148,39 @@ namespace XEditNetAuthor
                 if (currentRegion != null)
                 {
                     currentRegion.Editor.InsertElementActivated -= new XEditNet.InterfaceActivationEventHandler(InsertElementActivated);
+                    currentRegion.Editor.ChangeElementActivated -= new XEditNet.InterfaceActivationEventHandler(ChangeElementActivated);
                 }
 
                 r.Editor.InsertElementActivated += new XEditNet.InterfaceActivationEventHandler(InsertElementActivated);
-                ElementInsert.Editor = r.Editor;
+                r.Editor.ChangeElementActivated += new XEditNet.InterfaceActivationEventHandler(ChangeElementActivated);
+
+                foreach (WidgetPanel p in panels.Values)
+                {
+                    p.Nested.Editor = r.Editor;
+                }
+
                 currentRegion = r;
             }
         }
 
         private void InsertElementActivated(object sender, InterfaceActivationEventArgs e)
         {
-            ActivateDockElement(elementInsertPanel, e);
+            ActivateDockElement(typeof(ElementInsertPanel), e);
         }
 
-        private void ActivateDockElement(DockContent dockElement, InterfaceActivationEventArgs e)
+        private void ChangeElementActivated(object sender, InterfaceActivationEventArgs e)
         {
+            ActivateDockElement(typeof(ElementChangePanel), e);
+        }
+
+        private void ActivateDockElement(Type panelType, InterfaceActivationEventArgs e)
+        {
+            WidgetPanel dockElement = panels[panelType];
+            if (dockElement == null)
+                throw new InvalidOperationException("Failed to find panel for: " + panelType.ToString());
+ 
             if (dockElement.DockState != DockState.Hidden)
             {
-                //if (!dockElement.Is)
-                //    dockElement.Open();
-
                 dockElement.Activate();
                 e.Handled = true;
             }

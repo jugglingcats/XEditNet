@@ -175,9 +175,7 @@
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="command\CommandMapper.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="command\CommandMapper.cs" />
     <Compile Include="CustomXmlResolver.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -458,6 +456,9 @@
     <Content Include="index.htm" />
     <Content Include="licence.rtf" />
     <Content Include="todo.txt" />
+    <None Include="style\StyleClasses.cd" />
+    <None Include="ControlClasses.cd" />
+    <None Include="layout\LayoutClasses.cd" />
     <None Include="widgets\images\bulb.xcf" />
     <None Include="widgets\images\elements.xcf" />
   </ItemGroup>

@@ -111,7 +111,18 @@ namespace XEditNet.Widgets
 		/// </summary>
 		private void InitializeComponent()
 		{
-			components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // elementText
+            // 
+            this.elementText.TabIndex = 0;
+            // 
+            // ElementInsertPanel
+            // 
+            this.Name = "ElementInsertPanel";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 
 		#endregion

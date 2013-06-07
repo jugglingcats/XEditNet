@@ -59,105 +59,109 @@ namespace XEditNetAuthor
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(AboutDialog));
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.pictureBox2 = new System.Windows.Forms.PictureBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.authorVersion = new System.Windows.Forms.Label();
-			this.ctrlVersion = new System.Windows.Forms.Label();
-			this.label5 = new System.Windows.Forms.Label();
-			this.SuspendLayout();
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Enabled = false;
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(8, 8);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(80, 88);
-			this.pictureBox1.TabIndex = 0;
-			this.pictureBox1.TabStop = false;
-			// 
-			// pictureBox2
-			// 
-			this.pictureBox2.Enabled = false;
-			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(92, 8);
-			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(228, 88);
-			this.pictureBox2.TabIndex = 1;
-			this.pictureBox2.TabStop = false;
-			// 
-			// label1
-			// 
-			this.label1.Enabled = false;
-			this.label1.Location = new System.Drawing.Point(16, 104);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(184, 16);
-			this.label1.TabIndex = 2;
-			this.label1.Text = "XEditNet Author";
-			// 
-			// label2
-			// 
-			this.label2.Enabled = false;
-			this.label2.Location = new System.Drawing.Point(16, 120);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(184, 16);
-			this.label2.TabIndex = 3;
-			this.label2.Text = "XEditNetCtrl";
-			// 
-			// authorVersion
-			// 
-			this.authorVersion.Enabled = false;
-			this.authorVersion.Location = new System.Drawing.Point(208, 104);
-			this.authorVersion.Name = "authorVersion";
-			this.authorVersion.Size = new System.Drawing.Size(104, 16);
-			this.authorVersion.TabIndex = 2;
-			this.authorVersion.Text = "ALPHA";
-			this.authorVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
-			// 
-			// ctrlVersion
-			// 
-			this.ctrlVersion.Enabled = false;
-			this.ctrlVersion.Location = new System.Drawing.Point(208, 120);
-			this.ctrlVersion.Name = "ctrlVersion";
-			this.ctrlVersion.Size = new System.Drawing.Size(104, 16);
-			this.ctrlVersion.TabIndex = 2;
-			this.ctrlVersion.Text = "ALPHA";
-			this.ctrlVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
-			// 
-			// label5
-			// 
-			this.label5.Enabled = false;
-			this.label5.Location = new System.Drawing.Point(16, 144);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(288, 16);
-			this.label5.TabIndex = 3;
-			this.label5.Text = "Copyright (c) 2004 XEditNet Ltd. All rights reserved.";
-			// 
-			// AboutDialog
-			// 
-			this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(328, 168);
-			this.ControlBox = false;
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.pictureBox2);
-			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.authorVersion);
-			this.Controls.Add(this.ctrlVersion);
-			this.Controls.Add(this.label5);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "AboutDialog";
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-			this.Click += new System.EventHandler(this.About_Click);
-			this.Load += new System.EventHandler(this.AboutDialog_Load);
-			this.ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutDialog));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.authorVersion = new System.Windows.Forms.Label();
+            this.ctrlVersion = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(8, 8);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 88);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Enabled = false;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(92, 8);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(228, 88);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Enabled = false;
+            this.label1.Location = new System.Drawing.Point(16, 104);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(184, 16);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "XEditNet Author";
+            // 
+            // label2
+            // 
+            this.label2.Enabled = false;
+            this.label2.Location = new System.Drawing.Point(16, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(184, 16);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "XEditNetCtrl";
+            // 
+            // authorVersion
+            // 
+            this.authorVersion.Enabled = false;
+            this.authorVersion.Location = new System.Drawing.Point(208, 104);
+            this.authorVersion.Name = "authorVersion";
+            this.authorVersion.Size = new System.Drawing.Size(104, 16);
+            this.authorVersion.TabIndex = 2;
+            this.authorVersion.Text = "ALPHA";
+            this.authorVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // ctrlVersion
+            // 
+            this.ctrlVersion.Enabled = false;
+            this.ctrlVersion.Location = new System.Drawing.Point(208, 120);
+            this.ctrlVersion.Name = "ctrlVersion";
+            this.ctrlVersion.Size = new System.Drawing.Size(104, 16);
+            this.ctrlVersion.TabIndex = 2;
+            this.ctrlVersion.Text = "ALPHA";
+            this.ctrlVersion.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label5
+            // 
+            this.label5.Enabled = false;
+            this.label5.Location = new System.Drawing.Point(14, 144);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(288, 16);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Copyright 2004-2012 Alfie Kirkpatrick. All rights reserved.";
+            // 
+            // AboutDialog
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(328, 168);
+            this.ControlBox = false;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.authorVersion);
+            this.Controls.Add(this.ctrlVersion);
+            this.Controls.Add(this.label5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "AboutDialog";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Load += new System.EventHandler(this.AboutDialog_Load);
+            this.Click += new System.EventHandler(this.About_Click);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
 
 		}
 		#endregion

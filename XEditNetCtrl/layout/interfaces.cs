@@ -116,12 +116,7 @@ namespace XEditNet.Layout
 		IContainedItem this[int index]
 		{
 			get;
-		}
-
-		IContainedItem FirstChild
-		{
-			get;
-		}
+        }
 
 		IContainedItem LastChild
 		{

@@ -44,6 +44,7 @@ namespace XEditNet.Widgets
 		protected void Attach()
 		{
 			editor.SelectionChanged+=new SelectionChangedEventHandler(SelectionChanged);
+            ForceChange(false);
 		}
 
 		protected void Detach()
