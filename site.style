@@ -1,0 +1,69 @@
+<Stylesheet>
+<!--
+	<DefaultFont Family="Times New Roman" Size="12"/>
+-->
+	<TagFont Family="Verdana" Size="8"/>
+	<DefaultPadding Left="15"/>
+
+	<Block XPath="body">
+	</Block>	
+
+	<Block XPath="p">
+		<Margin Top="6" Bottom="3"/>
+	</Block>
+
+	<Block XPath="h1">
+		<Font Family="Arial" Bold="true" Size="16"/>
+		<Margin Top="12"/>
+	</Block>
+	
+	<Block XPath="h2">
+		<Font Family="Arial" Bold="true" Size="14"/>
+		<Margin Top="8"/>
+	</Block>
+	
+	<Block XPath="secttitle">
+		<Font Family="Arial" Bold="true" Size="14"/>
+		<Margin Top="12"/>
+	</Block>
+	
+	<Block XPath="dt">
+		<Font Family="Arial" Bold="true" Size="10"/>
+	</Block>
+	<Block XPath="dt[position()!=1]">
+		<Margin Top="10"/>
+	</Block>
+	<Block XPath="dd">
+		<Margin Left="15"/>
+	</Block>
+
+	<Block XPath="pre" Pre="true"/>
+
+	<Inline XPath="meta" Empty="true"/>
+
+	<Inline XPath="a">
+		<Font Underline="true"/>
+	</Inline>
+	
+	<Inline XPath="a[@name]" Empty="true">
+	</Inline>
+	
+	<Inline XPath="b">
+		<Font Bold="true"/>
+	</Inline>
+	
+	<Inline XPath="strong">
+		<Font Bold="true"/>
+	</Inline>
+
+	<Inline XPath="em">
+		<Font Italic="true"/>
+	</Inline>
+
+	<Inline XPath="abbr"/>
+
+	<Inline XPath="code">
+		<Font Family="Courier New" Size="11"/>
+	</Inline>
+
+</Stylesheet>
